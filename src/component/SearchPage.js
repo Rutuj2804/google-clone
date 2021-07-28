@@ -45,7 +45,7 @@ const SearchPage = (props) => {
 
         }
         fetchresults();
-    }, []);
+    }, [searchInput]);
 
     const googleresults = async ()=>{
         try {
