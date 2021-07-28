@@ -1,0 +1,34 @@
+.searchPage__Header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.searchPage__Header img{
+    width: 130px;
+    height: auto;
+    margin-right: 10px;
+}
+.searchPage__Header form{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border: 1px solid #707070;
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+.searchPage__Header form input{
+    width: 350px;
+    padding: 4px;
+    border: none;
+    outline: none;
+    margin: 0 5px;
+}
+.searchPage__Results p{
+    color: #707070;
+}
+a{
+    color: #bf18e8!important;
+    text-decoration: none!important;
+}

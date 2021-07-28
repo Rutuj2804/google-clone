@@ -1,0 +1,38 @@
+.home__Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+.home__Logo{
+    margin-bottom: 30px;
+}
+.home__Search form{
+    min-width: 500px;
+}
+.home__Search form .inputDiv{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 2px #efefef , -1px -2px 2px #efefef;
+}
+.home__Search form .inputDiv input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 3px;
+    margin: 0 5px;
+}
+.home__Search form .buttonGroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.home__Search form .buttonGroup button{
+    background-color: #efefef;
+    outline: none!important;
+}
